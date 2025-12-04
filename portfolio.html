@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <header class="navbar">
+        <div class="nav-inner">
+            <span class="logo" id="logo">Ayub Omar</span>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="project.html" class="active">Projects</a>
+                <a href="about.html" >About</a>
+            </nav>
+            <div class="nav-controls">
+                <div id="theme-toggle" class="theme-toggle">
+                    <div class="toggle-circle"></div>
+                </div>                       
+                <button class="hamburger">&#9776;</button>
+            </div>
+        </div>
+        <div class="overlay-nav">
+            <span class="overlay-logo" id="logo">Ayub Omar</span>
+
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="project.html" class="active">Projects</a>
+                <a href="about.html" >About</a>
+            </div>
+
+            <!-- 👇 overlay toggle: no id, extra class -->
+            <div class="theme-toggle overlay-toggle">
+                <div class="toggle-circle"></div>
+            </div>
+
+            <button class="close-btn">&times;</button>
+        </div>
+    </header>
+  <!-- HERO SECTION -->
+  <section class="case-hero case-section">
+    <div class="case-hero-inner">
+      <img src="images/gusi finale final finale.jpg" alt="Case Hero" class="case-hero-img">
+      <div class="case-hero-overlay">
+        <h1 class="case-title">My Portfolio</h1>
+        <p class="case-subtitle">A website containing my work.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- OVERVIEW SECTION -->
+  <section class="case-overview case-section">
+    <div class="sepLiner"></div>
+    <div class="case-container">
+      <h2 class="overview-title">Overview</h2>
+      <div class="overview-cards">
+        <div class="overview-card fade-left">
+          <h3>Introduction</h3>
+          <p> This portfolio showcases my UX and UI design skills which includes user research, wireframing, prototyping and visual design. It highlights my ability to solve real-world design problems with real clients while applying principles from my skillset, emphasising creativity, accessibility, comfortability and responsive design.</p>
+        </div>
+        <div class="overview-card fade-right">
+          <h3>Moodboard & Ideation</h3>
+            <p>
+              My moodboard includes clean, minimalistic layouts, bold typography and a soft, modern colour palette - enhanced by various interactive elements & animations. Greatly based my design on 
+              <a href="https://www.irene-butenko.com" target="_blank">Irene Butenko</a> & 
+              <a href="https://www.niklasbubori.com" target="_blank">Niklas Bubori</a>. These reflect my aesthetic preferences and the type of work I create that emphasises clarity, usability and elegance.
+            </p>
+            <style>
+                  a {
+                  color: inherit;       /* keep the same color as surrounding text */
+                  text-decoration: underline; /* ensure underline stays */
+                  transition: color 0.3s ease; /* optional smooth effect on hover */
+                }
+
+                a:hover {
+                  color: inherit;       /* stays the same on hover */
+                }
+
+            </style>
+        </div>
+        <div class="overview-card fade-up">
+          <h3>Early sketches</h3>
+          <p> I started with hand-drawn sketches to explore different layout options and information hierarchy. Each iteration helped me clairify the navigation flow and what content to prioritise. This allowed me to visualise ideas quickly and refine the structure before moving into digital prototypes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL IMAGES / SHOWCASE -->
+  <section class="case-final-design case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="final-title">Moodboard & Early sketches</h2>
+      <div class="final-grid">
+        <!-- First row: all landscape cards -->
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/irene.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/nik.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS SECTION -->
+  <section class="case-process case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="process-title">Process</h2>
+      <div class="process-steps">
+        <div class="process-step fade-left">
+          <div class="step-number">1</div>
+          <h3>Choice of Tool</h3>
+          <p> I decided to hard code my portfolio using HTML, CSS and JavaScript. This approach allowed me to have complete freedom and full control over the layout, interactions and responsiveness, allowing me to implement custom animations and design exactly as I envisioned it. By coding from scratch, I demonstrated my technical skills and created a unique portfolio, tailored entierly to my own personal brand.</p>
+        </div>
+        <div class="process-step fade-down">
+          <div class="step-number">2</div>
+          <h3>Design Styleguide</h3>
+          <p> The stylguide includes a soft, modern colour palette, legible typography and accessible contrasts. It evolved from the moodboard by refining colours and font choices for readability and consistency which ensures that the website is professional, cohesive and user-friendly across all devices. </p>
+        </div>
+        <div class="process-step fade-right">
+          <div class="step-number">3</div>
+          <h3>Early designs</h3>
+          <p> Initially, I focused on the layout, hierarchy and responsive behaviour. I used many different grid structures, navigation styles and interactive elements before settling with the current ones. These early versions helped me identify usability and clarity issues which helped me make improvements in spacing, alignment and visual emphasis for the final product.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL IMAGES / SHOWCASE -->
+  <section class="case-final-design case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="final-title">Style Guide & Early Wireframes</h2>
+      <div class="final-grid">
+        <!-- First row: all landscape cards -->
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/styleguide.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/folio 1.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/folio 2.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-process case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="process-title">Finale</h2>
+      <div class="process-steps">
+        <div class="process-step fade-up">
+          <div class="step-number">5</div>
+          <h3>Feedback & final outcome</h3>
+          <p> My peers noted the navigation was clear, colour palette was appealing while being minimalistic and the content hierarchy was amazing. Peers also noted that having a light & dark mode is a very nice feature. Some feedback suggested was adding some more animations in certain areas. I applied these insights on sections I thought was too pale, in order to give it life. This further strengthened the users experience on the website <br> <br> This portfolio is fully responsive, visually cohesive and interactive. It demonstrates my skills ranging across UX research, visual design and web development, alongside creating work that bundles with life and energy. Key features include smooth animation, clear information hierarchy, light & dark and an interactive cursor dot. This site represents my personal brand and comprehensively showases my design capabilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FINAL IMAGES / SHOWCASE -->
+  <section class="case-final-design case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="final-title">Final Design</h2>
+      <div class="final-grid">
+        <!-- First row: all landscape cards -->
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/main1.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/main2.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/main4.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/main4.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+
+        <!-- Second row: portraits -->
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/main6.png" alt="Final Design 2">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/main7.png" alt="Final Design 4">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/main5.png" alt="Final Design 1">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/main8.png" alt="Final Design 4">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- IMAGE POPUP -->
+  <div id="imagePopup" class="imagePopup">
+      <span id="imagePopupClose" class="imagePopup-close">&times;</span>
+
+      <img id="imagePopupImg" class="imagePopup-img" src="">
+
+      <button id="imagePopupPrev" class="imagePopup-prev">&#10094;</button>
+      <button id="imagePopupNext" class="imagePopup-next">&#10095;</button>
+  </div>
+
+
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-icons">
+            <a href="https://www.pinterest.co.uk/aliasadomar/" target="_blank" aria-label="Pinterest">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/aliasad_20/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561177798260" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            </div>
+            <p>Let us work together</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+  </body>
+</html>

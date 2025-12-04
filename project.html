@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <!---
+    <div id="loader">
+        <div id="progress-text">0%</div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+-->
+    <div id="load">
+        <div class="main-content">
+            <header class="navbar">
+                <div class="nav-inner">
+                    <span class="logo" id="logo">Ayub Omar</span>
+                    <nav class="nav-links">
+                        <a href="index.html">Home</a>
+                        <a href="project.html" class="active">Projects</a>
+                        <a href="about.html" >About</a>
+                    </nav>
+                    <div class="nav-controls">
+                        <div id="theme-toggle" class="theme-toggle">
+                            <div class="toggle-circle"></div>
+                        </div>                       
+                        <button class="hamburger">&#9776;</button>
+                    </div>
+                </div>
+                <div class="overlay-nav">
+                    <span class="overlay-logo" id="logo">Ayub Omar</span>
+
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="project.html" class="active">Projects</a>
+                        <a href="about.html" >About</a>
+                    </div>
+
+                    <!-- 👇 overlay toggle: no id, extra class -->
+                    <div class="theme-toggle overlay-toggle">
+                        <div class="toggle-circle"></div>
+                    </div>
+
+                    <button class="close-btn">&times;</button>
+                </div>
+            </header>
+            <br>
+            <br>
+            <br>
+            <div class="gallery-container">
+            <!-- Top row: 2 portraits -->
+                <div class="gallery-row">
+                    <section class="gallery portrait">
+                    <div class="gallery-image">
+                        <img src="images/arkli 1.png" alt="Project 1">
+                        <div class="gallery-overlay">
+                        <h2 class="gallery-title">Arkli Studios</h2>
+                        <a href="arkli.html" class="gallery-btn">View Project</a>
+                        </div>
+                    </div>
+                    </section>
+                    
+                    <section class="gallery portrait">
+                    <div class="gallery-image">
+                        <img src="images/piece 1.png" alt="Project 2">
+                        <div class="gallery-overlay">
+                        <h2 class="gallery-title">One Piece</h2>
+                        <a href="piece.html" class="gallery-btn">View Project</a>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+
+                <!-- Second row: 1 landscape -->
+                <div class="gallery-row">
+                    <section class="gallery landscape">
+                        <style>
+                                .gallery.portrait {
+                                    margin-top: 50px;
+                                }
+
+
+                               </style>
+                        <div class="gallery-image">
+                            <img src="images/Clive Chiristian Ali.jpg Land copy.jpg" alt="Project 3">
+                            <div class="gallery-overlay">
+                            <h2 class="gallery-title">My Portfolio</h2>
+                            <a href="portfolio.html" class="gallery-btn">View Project</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-icons">
+            <a href="https://www.pinterest.co.uk/aliasadomar/" target="_blank" aria-label="Pinterest">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/aliasad_20/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561177798260" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            </div>
+            <p>Let us work together</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

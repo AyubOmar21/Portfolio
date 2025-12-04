@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <header class="navbar">
+        <div class="nav-inner">
+            <span class="logo" id="logo">Ayub Omar</span>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="project.html">Projects</a>
+                <a href="about.html" class="active">About</a>
+            </nav>
+            <div class="nav-controls">
+                <div id="theme-toggle" class="theme-toggle">
+                    <div class="toggle-circle"></div>
+                </div>                       
+                <button class="hamburger">&#9776;</button>
+            </div>
+        </div>
+        <div class="overlay-nav">
+            <span class="overlay-logo" id="logo">Ayub Omar</span>
+
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="project.html">Projects</a>
+                <a href="about.html" class="active">About</a>
+            </div>
+
+            <!-- 👇 overlay toggle: no id, extra class -->
+            <div class="theme-toggle overlay-toggle">
+                <div class="toggle-circle"></div>
+            </div>
+
+            <button class="close-btn">&times;</button>
+        </div>
+    </header>
+
+    <section class="about-hero about-section">
+        <div class="case-container">
+            <h1 class="about-title">About Me</h1>
+            <div class="about-hero-container">
+            <div class="aboutImage">
+                <img src="images/bob finale copy.jpg" alt="Ayub Omar">
+            </div>
+            <div class="about-text">
+                <p class="about-intro">
+                Hi, I'm Ayub Omar. I am a UX/UI designer focused on creating clean, minimalistic and highly interactive digital experiences. I combine research, design thinking and front-end development to craft intuitive and elegant websites that create meaningful narratives through design and interaction. <br> <br> In an unpredictable era of AI and autonomy, I strive to keep human empathy and emotion at the heart of every design. Creativity feels fragile in a world moving at machine speed, and I believe narratives and storytelling breathe life into digital experiences, transforming interfaces into meaningful journeys that truly connect with people.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <Style>
+        .aboutImage {
+        margin-right: auto;   /* pushes text to the right */
+        margin-left: 0;       /* ensures image stays left */
+        align-self: flex-start; /* aligns top with text */
+        animation: fadeDown 1s ease-out forwards;
+        flex: 0 0 40%; /* desktop width */
+        align-self: flex-start; /* forces image to start at top of container */
+        }
+        @media (max-width: 768px)
+        {
+        .about-hero-container {
+            flex-direction: column; /* stack image and text */
+        }
+
+        .about-image {
+            width: 100%;            /* full width */
+            height: auto;           /* maintain aspect ratio */
+            align-self: stretch;    /* stretch to container edges */
+            margin: 0;              /* remove any margin */
+            border-radius: 0;       /* optional: remove rounded corners for full width */
+        }
+
+        .about-text {
+            padding: 20px;          /* text still has padding inside */
+        }         
+        }
+        
+        /* Image on the left */
+        .aboutImage {
+        flex: 0 0 320px;              /* fixed width for image */
+        width: 100%;
+        align-self: stretch; /* fill full width and touch top border */
+        }
+
+        .aboutImage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;            /* covers entire left area */
+        display: block;
+        border-right: 2px solid #25232E; /* separates image from text */
+        }
+
+    </Style>
+
+    <section class="about-skills about-section">
+        <div class="case-container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-cards">
+            <div class="skill-card fade-left">
+                <h3>UX Research</h3>
+                <p>User interviews, surveys, usability testing and analysis.</p>
+            </div>
+            <div class="skill-card fade-up">
+                <h3>UI Design</h3>
+                <p>Wireframing, prototyping, interaction design and visual design.</p>
+            </div>
+            <div class="skill-card fade-right">
+                <h3>Front-End Dev</h3>
+                <p>HTML, CSS, JavaScript, and responsive interactive websites.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="about-experience about-section">
+        <div class="case-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-cards">
+            <div class="experience-card fade-left">
+                <h3>Freelance Designer</h3>
+                <p>Creating portfolio websites for freelancers and small businesses.</p>
+            </div>
+            <div class="experience-card fade-right">
+                <h3>Personal Portfolio Projects</h3>
+                <p>Designing and building my own portfolio to showcase UX/UI and interactive design skills.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <section class="about-philosophy about-section">
+        <div class="case-container">
+            <h2 class="section-title">Design Philosophy</h2>
+            <p class="fade-up">
+            I believe design should be user-centered, intuitive and visually elegant. Every interaction matters, and attention to detail makes digital experiences memorable. Designs that lose sight of why they were created forget the people they were meant to serve, turning thoughtful experiences into empty interfaces.
+            </p>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <section class="about-personal about-section">
+        <div class="case-container">
+            <h2 class="section-title">Personal Life</h2>
+            <p class="fade-up">
+            Outside of design, I step away from the digital world, playing sports, hiking, going to the gym and traveling. These experiences allow me to meet new people, hear their stories and understand their perspectives, fuelling me with inspiration that seeps back into my work.
+            </p>
+        </div>
+    </section>
+    <br>
+    <br>    
+
+
+
+
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-icons">
+            <a href="https://www.pinterest.co.uk/aliasadomar/" target="_blank" aria-label="Pinterest">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/aliasad_20/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561177798260" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            </div>
+            <p>Let us work together</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+  </body>
+</html>

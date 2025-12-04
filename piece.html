@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <header class="navbar">
+        <div class="nav-inner">
+            <span class="logo" id="logo">Ayub Omar</span>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="project.html" class="active">Projects</a>
+                <a href="about.html" >About</a>
+            </nav>
+            <div class="nav-controls">
+                <div id="theme-toggle" class="theme-toggle">
+                    <div class="toggle-circle"></div>
+                </div>                       
+                <button class="hamburger">&#9776;</button>
+            </div>
+        </div>
+        <div class="overlay-nav">
+            <span class="overlay-logo" id="logo">Ayub Omar</span>
+
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="project.html" class="active">Projects</a>
+                <a href="about.html" >About</a>
+            </div>
+
+            <!-- 👇 overlay toggle: no id, extra class -->
+            <div class="theme-toggle overlay-toggle">
+                <div class="toggle-circle"></div>
+            </div>
+
+            <button class="close-btn">&times;</button>
+        </div>
+    </header>
+  <!-- HERO SECTION -->
+  <section class="case-hero case-section">
+    <div class="case-hero-inner">
+      <img src="images/piece 1.png" alt="Case Hero" class="case-hero-img">
+      <div class="case-hero-overlay">
+        <h1 class="case-title">One Piece</h1>
+        <p class="case-subtitle">A website showcasing a photographer's ability and talent.</p>
+      </div>
+    </div>
+  </section>
+  <style>
+    .case-hero-overlay {
+        opacity: 0;
+    }
+  </style>
+
+
+  <!-- OVERVIEW SECTION -->
+  <section class="case-overview case-section">
+    <div class="sepLiner"></div>
+    <div class="case-container">
+      <h2 class="overview-title">Overview</h2>
+      <div class="overview-cards">
+        <div class="overview-card fade-left">
+          <h3>Problem</h3>
+          <p> A personal project on my favourite fiction, built on wordpress & Elementor. This was my first attempt at utilising WordPress. 
+            
+            </p>
+        </div>
+        <div class="overview-card fade-right">
+          <h3>Solution</h3>
+          <p>After understanding how WordPress worked, I looked around different templates. One template that stood out to me was the twentytwentyfour. The minimilastic, sleek yet expressive in it's own way captivated me almost immediately.</p>
+        </div>
+        <div class="overview-card fade-up">
+          <h3>Impact</h3>
+          <p> This was a very good practise and a learning experience in a different method of building websites outside coding from scratch using HTML, CSS and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PROCESS SECTION -->
+  <section class="case-process case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="process-title">Process</h2>
+      <div class="process-steps">
+        <div class="process-step fade-left">
+          <div class="step-number">1</div>
+          <h3>Research</h3>
+          <p> I started off researching other biography websites using WordPress. This allowed me to understand the most common template for the type of website I want to create.</p>
+        </div>
+        <div class="process-step fade-down">
+          <div class="step-number">2</div>
+          <h3>Ideation</h3>
+          <p> I started off creating moodboards and brainstorming possible ideas I came up with and ideas I stumbled across from others. I noted everything I needed to do on Trello which allowed me to be punctual in my own deliveries. </p>
+        </div>
+        <div class="process-step fade-right">
+          <div class="step-number">3</div>
+          <h3>Design</h3>
+          <p> I started off implementing my design system and styleguide as it seemed the most logical. Couple ideas started to flow to me during the development which made me revisit if it was possible with the limitations of WordPress. </p>
+        </div>
+        <div class="process-step fade-up">
+          <div class="step-number">4</div>
+          <h3>Testing</h3>
+          <p> Once finished, I had a UX friend of mine test it thoroughly. This included them changing images, fonts colours etc. I was able to receive quality feedback on what went well and what could improve.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- FINAL IMAGES / SHOWCASE -->
+  <section class="case-final-design case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="final-title">Early wireframes</h2>
+      <div class="final-grid">
+        <!-- First row: all landscape cards -->
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/cms.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/piece 2.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL IMAGES / SHOWCASE -->
+  <section class="case-final-design case-section">
+    <hr class="sepLiner"/>
+    <div class="case-container">
+      <h2 class="final-title">Final Design</h2>
+      <div class="final-grid">
+        <!-- First row: all landscape cards -->
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/piece 3.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/piece 4.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/piece 5.png" alt="Final Design 3">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card landscape">
+          <img class="popup-image" src="images/piece 6.png" alt="Final Design 5">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+
+        <!-- Second row: portraits -->
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/piece 7.png" alt="Final Design 1">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/piece 8.png" alt="Final Design 2">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/piece 9.png" alt="Final Design 4">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+        <div class="final-card portrait">
+          <img class="popup-image" src="images/piece 10.png" alt="Final Design 4">
+          <div class="final-overlay"><h3></h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- IMAGE POPUP -->
+  <div id="imagePopup" class="imagePopup">
+      <span id="imagePopupClose" class="imagePopup-close">&times;</span>
+
+      <img id="imagePopupImg" class="imagePopup-img" src="">
+
+      <button id="imagePopupPrev" class="imagePopup-prev">&#10094;</button>
+      <button id="imagePopupNext" class="imagePopup-next">&#10095;</button>
+  </div>
+
+
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-icons">
+            <a href="https://www.pinterest.co.uk/aliasadomar/" target="_blank" aria-label="Pinterest">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/aliasad_20/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561177798260" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            </div>
+            <p>Let us work together</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+  </body>
+</html>
