@@ -470,6 +470,9 @@ body.dark-mode {
 body.dark-mode .overlay-logo {
   color: white;
 }
+body.dark-mode .case-hero-overlay {
+  color: #ffffff;
+}
 body.dark-mode .close-btn {
   color: white;
 }
