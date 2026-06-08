@@ -203,7 +203,7 @@ body.other .nav-links a {
 .logo {
   font-size: 1.5rem;       /* adjust size */
   font-weight: 700;      /* bold */
-  color: #ffff;        /* brand color */
+        /* brand color */
   font-family: 'Montserrat', sans-serif;
   transition: height 0.3s ease; /* Smooth transition for height */
 }
@@ -228,7 +228,7 @@ body.other .nav-links a {
 
 .nav-links a {
   font-size: 1.1rem;
-  color: #fff;
+  
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
