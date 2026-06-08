@@ -125,7 +125,10 @@ a:hover ~ .cursor {
   color: inherit; /* Keep normal text color */
   text-decoration: none;
 }
-
+a {
+    color: inherit; /* This makes the link text the same color as the text around it */
+    text-decoration: underline; /* Ensures the underline remains */
+}
 /* Underline animation */
 .nav-links a::after {
   content: "";
