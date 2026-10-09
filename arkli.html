@@ -1,215 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arkli Studio Case Study</title>
-    <link rel="icon" href="images/logo.png" type="images/logo/png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arkli Studios | Ayub Omar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&family=JetBrains+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <div class="cursor"></div>
-    <header class="navbar">
-        <div class="nav-inner">
-            <span class="logo" id="logo">Ayub Omar</span>
-            <nav class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="project.html" class="active">Projects</a>
-                <a href="about.html" >About</a>
-            </nav>
-            <div class="nav-controls">
-                <div id="theme-toggle" class="theme-toggle">
-                    <div class="toggle-circle"></div>
-                </div>                       
-                <button class="hamburger">&#9776;</button>
-            </div>
+    <nav>
+    <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Ayub Omar">
+        <div class="logo"><div class="grp"><span class="lw">A</span><span class="lw" id="ly">Y</span><span class="lp">U</span><span class="lw" id="lb">B</span></div><span class="lp lx" id="lx">X</span><span class="lp ld" id="ld">DESIGN</span></div>
+        <div class="sub">UX Researcher &amp; Designer</div>
+        </a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+        <div class="links" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html" aria-current="page">Projects</a>
+        <a href="about.html">About</a>
         </div>
-        <div class="overlay-nav">
-            <span class="overlay-logo" id="logo">Ayub Omar</span>
-
-            <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="project.html" class="active">Projects</a>
-                <a href="about.html" >About</a>
-
-            </div>
-
-            <!-- 👇 overlay toggle: no id, extra class -->
-            <div class="theme-toggle overlay-toggle">
-                <div class="toggle-circle"></div>
-            </div>
-
-            <button class="close-btn">&times;</button>
-        </div>
-    </header>
-  <!-- HERO SECTION -->
-  <section class="case-hero case-section">
-    <div class="case-hero-inner">
-      <img src="images/gusi finale final finale.jpg" alt="Case Hero" class="case-hero-img">
-      <div class="case-hero-overlay">
-        <h1 class="case-title">Arkli Studios</h1>
-        <p class="case-subtitle">A website showcasing a photographer's ability and talent.</p>
-      </div>
     </div>
-  </section>
-
-
-  <!-- OVERVIEW SECTION -->
-  <section class="case-overview case-section">
-    <div class="sepLiner"></div>
-    <div class="case-container">
-      <h2 class="overview-title">Overview</h2>
-      <div class="overview-cards">
-        <div class="overview-card fade-left">
-          <h3>Problem</h3>
-          <p> The client approached me wanting to build him a portfolio website for his photography work. He wanted the website to be mainly focused on the images and it's responsiveness. 
-            
-            Explain the user or business problem you solved.</p>
-        </div>
-        <div class="overview-card fade-right">
-          <h3>Solution</h3>
-          <p>After discussing what type of website he wanted, I started researching other photography portfolio websites and how they are structured. I showed some examples and what personally stood out to me to the client so we could agree on the approach.</p>
-        </div>
-        <div class="overview-card fade-up">
-          <h3>Impact</h3>
-          <p> Prior to this, the client didn't have a digital method to showcase his portfolio. With this, he has been able to attract clients more efficiently.</p>
-        </div>
-      </div>
+    <div class="scrim" id="scrim"></div>
+    </nav>
+    
+    <main>
+    <section data-reveal data-step=".25" style="padding-top:64px">
+    <div class="wrap">
+        <a class="back" href="project.html" data-a="fade" data-o="0">&lsaquo; Projects</a>
+        <h1 class="cs-title" data-a="left" data-o="1">Arkli Studios</h1>
+        <p class="cs-lead" data-a="up" data-o="2">A website showcasing a photographer's ability and talent.</p>
+        <figure class="win cs-hero" data-a="up" data-o="3">
+          <div class="bar"><b></b><b></b><b></b><span>arkli.html</span><a class="vis" href="PASTE-WEBSITE-URL-HERE" target="_blank" rel="noopener">Visit website &#8599;</a></div>
+          <a class="hero-link" href="arklistudio.com" target="_blank" rel="noopener" aria-label="Visit the Arkli Studios website (opens in a new tab)">
+            <img src="images/gusi%20finale%20final%20finale.jpg" alt="Arkli Studios">
+          </a>
+        </figure>
     </div>
-  </section>
+    </section>
 
-
-
-  <!-- PROCESS SECTION -->
-  <section class="case-process case-section">
-    <hr class="sepLiner"/>
-    <div class="case-container">
-      <h2 class="process-title">Process</h2>
-      <div class="process-steps">
-        <div class="process-step fade-left">
-          <div class="step-number">1</div>
-          <h3>Research</h3>
-          <p> I conducted research by holding user interviews and surveys on multiple photography portfolio's I picked out to gauge what users look for and like. Using methods such as Think Aloud testing made it more efficient in gathering qualititive data. With this data, I was able to munderstand what I need to do.</p>
+    <section data-reveal data-step=".25">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Overview</h2>
+        <div class="grid3">
+        <div class="card" data-a="up" data-o="1"><h3>Problem</h3><p>The client approached me wanting to build him a portfolio website for his photography work. He wanted the website to be mainly focused on the images and its responsiveness.</p></div>
+        <div class="card" data-a="up" data-o="2"><h3>Solution</h3><p>After discussing what type of website he wanted, I started researching other photography portfolio websites and how they are structured. I showed some examples and what personally stood out to me to the client so we could agree on the approach.</p></div>
+        <div class="card" data-a="up" data-o="3"><h3>Impact</h3><p>Prior to this, the client didn't have a digital method to showcase his portfolio. With this, he has been able to attract clients more efficiently.</p></div>
         </div>
-        <div class="process-step fade-down">
-          <div class="step-number">2</div>
-          <h3>Ideation</h3>
-          <p> I started doing rough sketches of multiple different types of structures and gave it to the client so they could select which one they preferred the most. After that, I started the wireframing, mainly focusing on the features and functions the client requested. I made sure to keep 100% transparency with the client, staying in constant communication for every design decision I made and any further ideas i thought of they might like. </p>
-        </div>
-        <div class="process-step fade-right">
-          <div class="step-number">3</div>
-          <h3>Design</h3>
-          <p> Once agreeing on the design and layout, I started to code it using HTML,CSS and JavaScript. I proposed ideas in terms of animation and transitions to the client which they fully agreed with.</p>
-        </div>
-        <div class="process-step fade-up">
-          <div class="step-number">4</div>
-          <h3>Testing</h3>
-          <p> Once finished, I ran the same tests I did when researching different photography portfolio websites. This allowed me to gauge exactly how it compares to other examples and what i've done uniquely, and also what I am missing. </p>
-        </div>
-      </div>
     </div>
-  </section>
+    </section>
 
-
-
-
-  <!-- FINAL IMAGES / SHOWCASE -->
-  <section class="case-final-design case-section">
-    <hr class="sepLiner"/>
-    <div class="case-container">
-      <h2 class="final-title">Early wireframes</h2>
-      <div class="final-grid">
-        <!-- First row: all landscape cards -->
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/Early 3.png" alt="Final Design 3">
-          <div class="final-overlay"><h3></h3></div>
+    <section data-reveal data-step=".3">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="left" data-o="0">Process</h2>
+        <div class="steps">
+        <div class="step" data-a="left" data-o="1">
+          <div><span class="n">01</span><h3>Research</h3></div>
+          <p>I conducted research by holding user interviews and surveys on multiple photography portfolios I picked out to gauge what users look for and like. Using methods such as Think Aloud testing made it more efficient in gathering qualitative data. With this data, I was able to understand what I need to do.</p>
         </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/early 4.png" alt="Final Design 5">
-          <div class="final-overlay"><h3></h3></div>
+        <div class="step" data-a="left" data-o="2">
+          <div><span class="n">02</span><h3>Ideation</h3></div>
+          <p>I started doing rough sketches of multiple different types of structures and gave them to the client so they could select which one they preferred the most. After that, I started the wireframing, mainly focusing on the features and functions the client requested. I made sure to keep 100% transparency with the client, staying in constant communication for every design decision I made and any further ideas I thought of they might like.</p>
         </div>
-      </div>
+        <div class="step" data-a="left" data-o="3">
+          <div><span class="n">03</span><h3>Design</h3></div>
+          <p>Once agreeing on the design and layout, I started to code it using HTML, CSS and JavaScript. I proposed ideas in terms of animation and transitions to the client which they fully agreed with.</p>
+        </div>
+        <div class="step" data-a="left" data-o="4">
+          <div><span class="n">04</span><h3>Testing</h3></div>
+          <p>Once finished, I ran the same tests I did when researching different photography portfolio websites. This allowed me to gauge exactly how it compares to other examples and what I've done uniquely, and also what I am missing.</p>
+        </div>
+        </div>
     </div>
-  </section>
+    </section>
 
-  <!-- FINAL IMAGES / SHOWCASE -->
-  <section class="case-final-design case-section">
-    <hr class="sepLiner"/>
-    <div class="case-container">
-      <h2 class="final-title">Final Design</h2>
-      <div class="final-grid">
-        <!-- First row: all landscape cards -->
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/screen 1.png" alt="Final Design 3">
-          <div class="final-overlay"><h3></h3></div>
+    <section data-reveal data-step=".3">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Early wireframes</h2>
+        <div class="shots two">
+        <figure class="win" data-a="left" data-o="1">
+          <div class="bar"><b></b><b></b><b></b><span>early-3.png</span></div>
+          <img class="zoom" src="images/Early%203.png" alt="Early wireframe 1" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="right" data-o="2">
+          <div class="bar"><b></b><b></b><b></b><span>early-4.png</span></div>
+          <img class="zoom" src="images/early%204.png" alt="Early wireframe 2" loading="lazy" tabindex="0">
+        </figure>
         </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/screen 2.png" alt="Final Design 5">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/screen 3.png" alt="Final Design 3">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/screen 4.png" alt="Final Design 5">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-
-        <!-- Second row: portraits -->
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/mobile 1.png" alt="Final Design 1">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/mobile 2.png" alt="Final Design 2">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/mobile 3.png" alt="Final Design 4">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/mobile 4.png" alt="Final Design 4">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-      </div>
     </div>
-  </section>
+    </section>
 
-
-  <!-- IMAGE POPUP -->
-  <div id="imagePopup" class="imagePopup">
-      <span id="imagePopupClose" class="imagePopup-close">&times;</span>
-
-      <img id="imagePopupImg" class="imagePopup-img" src="">
-
-      <button id="imagePopupPrev" class="imagePopup-prev">&#10094;</button>
-      <button id="imagePopupNext" class="imagePopup-next">&#10095;</button>
-  </div>
-
-
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="social-icons">
-            <a href="#" target="_blank" aria-label="Email">
-                <i class="fa-regular fa-envelope"></i>
-            </a>
-            <a href="#" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            </div>
-            <p>Let us work together</p>
+    <section data-reveal data-step=".25">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Final Design</h2>
+        <div class="shots two">
+        <figure class="win" data-a="left" data-o="1">
+          <div class="bar"><b></b><b></b><b></b><span>screen-1.png</span></div>
+          <img class="zoom" src="images/screen%201.png" alt="Final design desktop 1" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="right" data-o="2">
+          <div class="bar"><b></b><b></b><b></b><span>screen-2.png</span></div>
+          <img class="zoom" src="images/screen%202.png" alt="Final design desktop 2" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="left" data-o="3">
+          <div class="bar"><b></b><b></b><b></b><span>screen-3.png</span></div>
+          <img class="zoom" src="images/screen%203.png" alt="Final design desktop 3" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="right" data-o="4">
+          <div class="bar"><b></b><b></b><b></b><span>screen-4.png</span></div>
+          <img class="zoom" src="images/screen%204.png" alt="Final design desktop 4" loading="lazy" tabindex="0">
+        </figure>
         </div>
+        <div class="shots four" style="margin-top:20px">
+        <figure class="win" data-a="up" data-o="5">
+          <div class="bar"><b></b><b></b><b></b><span>mobile-1.png</span></div>
+          <img class="zoom" src="images/mobile%201.png" alt="Final design mobile 1" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="up" data-o="6">
+          <div class="bar"><b></b><b></b><b></b><span>mobile-2.png</span></div>
+          <img class="zoom" src="images/mobile%202.png" alt="Final design mobile 2" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="up" data-o="7">
+          <div class="bar"><b></b><b></b><b></b><span>mobile-3.png</span></div>
+          <img class="zoom" src="images/mobile%203.png" alt="Final design mobile 3" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="up" data-o="8">
+          <div class="bar"><b></b><b></b><b></b><span>mobile-4.png</span></div>
+          <img class="zoom" src="images/mobile%204.png" alt="Final design mobile 4" loading="lazy" tabindex="0">
+        </figure>
+        </div>
+    </div>
+    </section>
+
+    <section class="final" data-reveal>
+    <div class="wrap">
+        <h2 data-type>Let us work together</h2>
+        <a class="btn" href="about.html" data-a="up" data-o="0">Let&rsquo;s collaborate <span>&rsaquo;</span></a>
+    </div>
+    </section>
+    </main>
+ 
+    <footer>
+    <div class="wrap">
+        <span>Ayub Omar</span>
+        <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
     </footer>
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script> 
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Notification | Ayub Omar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&family=JetBrains+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+    <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Ayub Omar">
+        <div class="logo"><div class="grp"><span class="lw">A</span><span class="lw" id="ly">Y</span><span class="lp">U</span><span class="lw" id="lb">B</span></div><span class="lp lx" id="lx">X</span><span class="lp ld" id="ld">DESIGN</span></div>
+        <div class="sub">UX Researcher &amp; Designer</div>
+        </a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+        <div class="links" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html" aria-current="page">Projects</a>
+        <a href="about.html">About</a>
+        </div>
+    </div>
+    <div class="scrim" id="scrim"></div>
+    </nav>
+    
+    <main>
+    <section data-reveal data-step=".25" style="padding-top:64px">
+    <div class="wrap">
+        <a class="back" href="project.html" data-a="fade" data-o="0">&lsaquo; Projects</a>
+        <h1 class="cs-title" data-a="left" data-o="1">Product Notification</h1>
+        <p class="cs-lead" data-a="up" data-o="2">A notification system connecting external submitters with internal OPSS reviewers.</p>
+        <figure class="win cs-hero" data-a="up" data-o="3">
+          <div class="bar"><b></b><b></b><b></b><span>gov.png</span><a class="vis" href="PASTE-FIGMA-PROTOTYPE-URL-HERE" target="_blank" rel="noopener">Open prototype &#8599;</a></div>
+          <a class="hero-link" href="https://www.figma.com/design/X3iOt8PxfmAT02bEEu0EnB/Untitled?node-id=0-1&t=X1BvXrL4eOif2YBN-1" target="_blank" rel="noopener" aria-label="Open the Product Notification prototype in Figma (opens in a new tab)">
+            <img src="images/gov.png" alt="Product Notification">
+          </a>
+        </figure>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".25">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Overview</h2>
+        <div class="grid3">
+        <div class="card" data-a="up" data-o="1"><h3>Problem</h3><p>The product notification suffers from a disjointed workflow between external applicants and internal reviewers. Because the system lacks a unified memory, real-time validation and transparency tracking, it creates a heavy administrative bottleneck: external users face high error risks and redundant entry with no clear way of tracking the progress of the application, while internal officers waste time on manual checks and back-and-forth emails instead of spending that time evaluating applications.</p></div>
+        <div class="card" data-a="up" data-o="2"><h3>Solution</h3><ul><li>An automated pre-submission validation to reduce submission error.</li><li>Real-time dashboard queue to track progression.</li><li>In-system amendment tools to improve transparency in communications.</li><li>Authenticated account profiles to automatically pre-fill static data.</li></ul></div>
+        <div class="card" data-a="up" data-o="3"><h3>Impact</h3><p>External users can efficiently submit notifications with reduced error, track the submission progress in bulk and save time repeatedly inputting the same static data. Internal reviewers spend less time chasing missing fields, more time evaluating product safety and are able to communicate more efficiently through in-system amendment tools.</p></div>
+        </div>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".3">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="left" data-o="0">Process</h2>
+        <div class="steps">
+        <div class="step" data-a="left" data-o="1">
+          <div><span class="n">01</span><h3>Research</h3></div>
+          <div class="sb">
+            <p>Using transcripts provided to me from internal OPSS officers and external businesses, both big and small, I was able to gauge their thoughts, opinion, the current process and what they would like to be changed / implemented.</p>
+            <p>With this, I was able to come up with my problem statement:</p>
+            <blockquote>External submitters and internal OPSS Regulatory Officers are constrained by an unguided, email-based notification system that lacks user authentication, real-time data validation and status tracking when submitting. This is a problem because external submitters unknowingly submit incomplete or improperly formatted data and waste time re-entering static information. Consequently, internal OPSS officers spend crucial time manually validating submitted data through back-and-forth emails, resulting in operational delays.</blockquote>
+          </div>
+        </div>
+        <div class="step" data-a="left" data-o="2">
+          <div><span class="n">02</span><h3>Ideation</h3></div>
+          <div class="sb">
+            <p>Utilising the research insight, I was able to understand the core user needs and use How Might We Questions.</p>
+            <h4>Core user needs</h4>
+            <ul>
+              <li>OPSS Officers needed pre-validated submissions to focus on evaluation rather than chasing missing fields via email.</li>
+              <li>Enterprise Managers required profile-tied static data to auto-fill across mass filings.</li>
+              <li>Small Business Owners needed real-time error indicators and checklists to submit with confidence.</li>
+              <li>Junior Staff needed contextual guidance summaries embedded directly alongside data entry fields.</li>
+            </ul>
+            <h4>How might we</h4>
+            <ol>
+              <li>How might we eliminate the need for users to repeatedly re-enter static data across multiple submissions?</li>
+              <li>How might we reduce missing, incomplete, or duplicated information when submitting notifications?</li>
+              <li>How might we make submission statuses transparent so users don't need to chase updates via email?</li>
+              <li>How might we keep relevant guidelines and regulations within reach during data entry?</li>
+            </ol>
+          </div>
+        </div>
+        <div class="step" data-a="left" data-o="3">
+          <div><span class="n">03</span><h3>Design</h3></div>
+          <div class="sb">
+            <p>Using the Government Design System (GDS), I created separate dashboards for both internal reviewers and external submitters, while also completely revamping the notification submission to be clearer, easier to progress through and reduce error when submitting data through an automated system. Those submitting are also able to view at what stage of the submission they are currently at, alongside being able to draft incomplete notifications to edit and submit them later.</p>
+          </div>
+        </div>
+        <div class="step" data-a="left" data-o="4">
+          <div><span class="n">04</span><h3>Testing</h3></div>
+          <div class="sb">
+            <p>I came up with a usability testing plan, where the objective was to evaluate the success of the prototype based on task completion efficiency. This testing utilised qualitative insights to identify whether the navigation and functions implemented in the prototype reduce the error rate and lower the cognitive burden when submitting a notification.</p>
+            <p>This study recruited 3 participants, conducted on a Teams call. The KPIs included: the speed it takes to complete tasks, efficiency of the navigation, and the cognitive load through navigating the prototype, which will serve as the metrics for design success.</p>
+            <p>For the qualitative assessment, I conducted a Think-Aloud protocol. Participants were asked to express their immediate thoughts as they navigate around the prototype. The test will be structured around this scenario:</p>
+            <blockquote>As a new staff member for a Vape &amp; Tobacco Product Importer, you are tasked to file a notification submission for the newest product.</blockquote>
+          </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".25">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Final Design</h2>
+        <div class="shots two">
+        <figure class="win" data-a="left" data-o="2">
+          <div class="bar"><b></b><b></b><b></b><span>gov2.png</span></div>
+          <img class="zoom" src="images/gov.png" alt="Product Notification final design 2" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="right" data-o="3">
+          <div class="bar"><b></b><b></b><b></b><span>gov3.png</span></div>
+          <img class="zoom" src="images/gov2.png" alt="Product Notification final design 3" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="left" data-o="4">
+          <div class="bar"><b></b><b></b><b></b><span>gov4.png</span></div>
+          <img class="zoom" src="images/gov3.png" alt="Product Notification final design 4" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="right" data-o="5">
+          <div class="bar"><b></b><b></b><b></b><span>gov5.png</span></div>
+          <img class="zoom" src="images/gov 4.png" alt="Product Notification final design 5" loading="lazy" tabindex="0">
+        </figure>
+        </div>
+    </div>
+    </section>
+
+    <section class="final" data-reveal>
+    <div class="wrap">
+        <h2 data-type>Let us work together</h2>
+        <a class="btn" href="about.html" data-a="up" data-o="0">Let&rsquo;s collaborate <span>&rsaquo;</span></a>
+    </div>
+    </section>
+    </main>
+ 
+    <footer>
+    <div class="wrap">
+        <span>Ayub Omar</span>
+        <a href="https://www.linkedin.com/in/ayub-omarux/" rel="noopener">LinkedIn</a>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

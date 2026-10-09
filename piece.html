@@ -1,219 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Piece Case Study</title>
-    <link rel="icon" href="images/logo.png" type="images/logo/png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>One Piece Blog | Ayub Omar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&family=JetBrains+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <div class="cursor"></div>
-    <header class="navbar">
-        <div class="nav-inner">
-            <span class="logo" id="logo">Ayub Omar</span>
-            <nav class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="project.html" class="active">Projects</a>
-                <a href="about.html" >About</a>
-            </nav>
-            <div class="nav-controls">
-                <div id="theme-toggle" class="theme-toggle">
-                    <div class="toggle-circle"></div>
-                </div>                       
-                <button class="hamburger">&#9776;</button>
+    <nav>
+    <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Ayub Omar">
+        <div class="logo"><div class="grp"><span class="lw">A</span><span class="lw" id="ly">Y</span><span class="lp">U</span><span class="lw" id="lb">B</span></div><span class="lp lx" id="lx">X</span><span class="lp ld" id="ld">DESIGN</span></div>
+        <div class="sub">UX Researcher &amp; Designer</div>
+        </a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+        <div class="links" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html" aria-current="page">Projects</a>
+        <a href="about.html">About</a>
+        </div>
+    </div>
+    <div class="scrim" id="scrim"></div>
+    </nav>
+    
+    <main>
+    <section data-reveal data-step=".25" style="padding-top:64px">
+    <div class="wrap">
+        <a class="back" href="project.html" data-a="fade" data-o="0">&lsaquo; Projects</a>
+        <h1 class="cs-title" data-a="left" data-o="1">One Piece Blog</h1>
+        <p class="cs-lead" data-a="up" data-o="2">A personal blog on my favourite fiction, built with WordPress &amp; Elementor.</p>
+        <figure class="win cs-hero" data-a="up" data-o="3">
+          <div class="bar"><b></b><b></b><b></b><span>piece.html</span><a class="vis" href="PASTE-WEBSITE-URL-HERE" target="_blank" rel="noopener">Visit website &#8599;</a></div>
+          <a class="hero-link" href="PASTE-WEBSITE-URL-HERE" target="_blank" rel="noopener" aria-label="Visit the One Piece Blog website (opens in a new tab)">
+            <img src="images/piece%201.png" alt="One Piece Blog">
+          </a>
+        </figure>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".25">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Overview</h2>
+        <div class="grid3">
+        <div class="card" data-a="up" data-o="1"><h3>Problem</h3><p>A personal project on my favourite fiction, built on WordPress &amp; Elementor. This was my first attempt at utilising WordPress.</p></div>
+        <div class="card" data-a="up" data-o="2"><h3>Solution</h3><p>After understanding how WordPress worked, I looked around different templates. One template that stood out to me was the Twenty Twenty-Four. The minimalistic, sleek yet expressive design, in its own way, captivated me almost immediately.</p></div>
+        <div class="card" data-a="up" data-o="3"><h3>Impact</h3><p>This was a very good practice and a learning experience in a different method of building websites outside coding from scratch using HTML, CSS and JavaScript.</p></div>
+        </div>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".3">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="left" data-o="0">Process</h2>
+        <div class="steps">
+        <div class="step" data-a="left" data-o="1">
+          <div><span class="n">01</span><h3>Research</h3></div>
+          <p>I first begun researching other biography websites using WordPress. This allowed me to understand the most common template for the type of website I want to create.</p>
+        </div>
+        <div class="step" data-a="left" data-o="2">
+          <div><span class="n">02</span><h3>Ideation</h3></div>
+          <p>I then moved on to creating moodboards and brainstorming possible ideas I came up with and ideas I stumbled across from others. I noted everything I needed to do on Trello which allowed me to be punctual in my own deliveries.</p>
+        </div>
+        <div class="step" data-a="left" data-o="3">
+          <div><span class="n">03</span><h3>Design</h3></div>
+          <p>I started off implementing my design system and styleguide as it seemed the most logical. A couple of ideas started to flow to me during the development which made me revisit if it was possible with the limitations of WordPress.</p>
+        </div>
+        <div class="step" data-a="left" data-o="4">
+          <div><span class="n">04</span><h3>Testing</h3></div>
+          <p>Once finished, I had a UX friend of mine test it thoroughly. This included them changing images, fonts, colours etc. I was able to receive quality feedback on what went well and what could be improved.</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".3">
+    <div class="wrap">
+        <h2 class="sec-title" data-a="fade" data-o="0">Early wireframes</h2>
+        <div class="shots two">
+        <figure class="win" data-a="left" data-o="1">
+          <div class="bar"><b></b><b></b><b></b><span>cms.png</span></div>
+          <img class="zoom" src="images/cms.png" alt="Early wireframe: CMS" loading="lazy" tabindex="0">
+        </figure>
+        <figure class="win" data-a="right" data-o="2">
+          <div class="bar"><b></b><b></b><b></b><span>piece-2.png</span></div>
+          <img class="zoom" src="images/piece%202.png" alt="Early wireframe 2" loading="lazy" tabindex="0">
+        </figure>
+        </div>
+    </div>
+    </section>
+
+    <section data-reveal data-step=".25">
+        <div class="wrap">
+            <h2 class="sec-title" data-a="fade" data-o="0">Final Design</h2>
+            <div class="shots two">
+            <figure class="win" data-a="left" data-o="1">
+            <div class="bar"><b></b><b></b><b></b><span>screen-1</span></div>
+            <img class="zoom" src="images/piece 1.png" alt="Final design desktop 1" loading="lazy" tabindex="0">
+            </figure>
+            <figure class="win" data-a="right" data-o="2">
+            <div class="bar"><b></b><b></b><b></b><span>screen-2</span></div>
+            <img class="zoom" src="images/piece 2.png" alt="Final design desktop 2" loading="lazy" tabindex="0">
+            </figure>
+            <figure class="win" data-a="left" data-o="3">
+            <div class="bar"><b></b><b></b><b></b><span>screen-3</span></div>
+            <img class="zoom" src="images/piece 3.png" alt="Final design desktop 3" loading="lazy" tabindex="0">
+            </figure>
+            <figure class="win" data-a="right" data-o="4">
+            <div class="bar"><b></b><b></b><b></b><span>screen-4</span></div>
+            <img class="zoom" src="images/piece 4.png" alt="Final design desktop 4" loading="lazy" tabindex="0">
+            </figure>
+            </div>
+            <div class="shots four" style="margin-top:20px">
+            <figure class="win" data-a="up" data-o="5">
+            <div class="bar"><b></b><b></b><b></b><span>mobile-1</span></div>
+            <img class="zoom" src="images/piece 7.png" alt="Final design mobile 1" loading="lazy" tabindex="0">
+            </figure>
+            <figure class="win" data-a="up" data-o="6">
+            <div class="bar"><b></b><b></b><b></b><span>mobile-2</span></div>
+            <img class="zoom" src="images/piece 8.png" alt="Final design mobile 2" loading="lazy" tabindex="0">
+            </figure>
+            <figure class="win" data-a="up" data-o="7">
+            <div class="bar"><b></b><b></b><b></b><span>mobile-3</span></div>
+            <img class="zoom" src="images/piece 9.png" alt="Final design mobile 3" loading="lazy" tabindex="0">
+            </figure>
+            <figure class="win" data-a="up" data-o="8">
+            <div class="bar"><b></b><b></b><b></b><span>mobile-4</span></div>
+            <img class="zoom" src="images/piece 10.png" alt="Final design mobile 4" loading="lazy" tabindex="0">
+            </figure>
             </div>
         </div>
-        <div class="overlay-nav">
-            <span class="overlay-logo" id="logo">Ayub Omar</span>
+    </section>
 
-            <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="project.html" class="active">Projects</a>
-                <a href="about.html" >About</a>
-            </div>
-
-            <!-- 👇 overlay toggle: no id, extra class -->
-            <div class="theme-toggle overlay-toggle">
-                <div class="toggle-circle"></div>
-            </div>
-
-            <button class="close-btn">&times;</button>
-        </div>
-    </header>
-  <!-- HERO SECTION -->
-  <section class="case-hero case-section">
-    <div class="case-hero-inner">
-      <img src="images/piece 1.png" alt="Case Hero" class="case-hero-img">
-      <div class="case-hero-overlay">
-        <h1 class="case-title">One Piece</h1>
-        <p class="case-subtitle">A website showcasing a photographer's ability and talent.</p>
-      </div>
+    <section class="final" data-reveal>
+    <div class="wrap">
+        <h2 data-type>Let us work together</h2>
+        <a class="btn" href="about.html" data-a="up" data-o="0">Let&rsquo;s collaborate <span>&rsaquo;</span></a>
     </div>
-  </section>
-  <style>
-    .case-hero-overlay {
-        opacity: 0;
-    }
-  </style>
-
-
-  <!-- OVERVIEW SECTION -->
-  <section class="case-overview case-section">
-    <div class="sepLiner"></div>
-    <div class="case-container">
-      <h2 class="overview-title">Overview</h2>
-      <div class="overview-cards">
-        <div class="overview-card fade-left">
-          <h3>Problem</h3>
-          <p> A personal project on my favourite fiction, built on wordpress & Elementor. This was my first attempt at utilising WordPress. 
-            
-            </p>
-        </div>
-        <div class="overview-card fade-right">
-          <h3>Solution</h3>
-          <p>After understanding how WordPress worked, I looked around different templates. One template that stood out to me was the twentytwentyfour. The minimilastic, sleek yet expressive in it's own way captivated me almost immediately.</p>
-        </div>
-        <div class="overview-card fade-up">
-          <h3>Impact</h3>
-          <p> This was a very good practise and a learning experience in a different method of building websites outside coding from scratch using HTML, CSS and JavaScript.</p>
-        </div>
-      </div>
+    </section>
+    </main>
+ 
+    <footer>
+    <div class="wrap">
+        <span>Ayub Omar</span>
+        <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" rel="noopener">LinkedIn</a>
     </div>
-  </section>
-
-
-
-  <!-- PROCESS SECTION -->
-  <section class="case-process case-section">
-    <hr class="sepLiner"/>
-    <div class="case-container">
-      <h2 class="process-title">Process</h2>
-      <div class="process-steps">
-        <div class="process-step fade-left">
-          <div class="step-number">1</div>
-          <h3>Research</h3>
-          <p> I started off researching other biography websites using WordPress. This allowed me to understand the most common template for the type of website I want to create.</p>
-        </div>
-        <div class="process-step fade-down">
-          <div class="step-number">2</div>
-          <h3>Ideation</h3>
-          <p> I started off creating moodboards and brainstorming possible ideas I came up with and ideas I stumbled across from others. I noted everything I needed to do on Trello which allowed me to be punctual in my own deliveries. </p>
-        </div>
-        <div class="process-step fade-right">
-          <div class="step-number">3</div>
-          <h3>Design</h3>
-          <p> I started off implementing my design system and styleguide as it seemed the most logical. Couple ideas started to flow to me during the development which made me revisit if it was possible with the limitations of WordPress. </p>
-        </div>
-        <div class="process-step fade-up">
-          <div class="step-number">4</div>
-          <h3>Testing</h3>
-          <p> Once finished, I had a UX friend of mine test it thoroughly. This included them changing images, fonts colours etc. I was able to receive quality feedback on what went well and what could improve.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <!-- FINAL IMAGES / SHOWCASE -->
-  <section class="case-final-design case-section">
-    <hr class="sepLiner"/>
-    <div class="case-container">
-      <h2 class="final-title">Early wireframes</h2>
-      <div class="final-grid">
-        <!-- First row: all landscape cards -->
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/cms.png" alt="Final Design 3">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/piece 2.png" alt="Final Design 5">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FINAL IMAGES / SHOWCASE -->
-  <section class="case-final-design case-section">
-    <hr class="sepLiner"/>
-    <div class="case-container">
-      <h2 class="final-title">Final Design</h2>
-      <div class="final-grid">
-        <!-- First row: all landscape cards -->
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/piece 3.png" alt="Final Design 3">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/piece 4.png" alt="Final Design 5">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/piece 5.png" alt="Final Design 3">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card landscape">
-          <img class="popup-image" src="images/piece 6.png" alt="Final Design 5">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-
-        <!-- Second row: portraits -->
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/piece 7.png" alt="Final Design 1">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/piece 8.png" alt="Final Design 2">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/piece 9.png" alt="Final Design 4">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-        <div class="final-card portrait">
-          <img class="popup-image" src="images/piece 10.png" alt="Final Design 4">
-          <div class="final-overlay"><h3></h3></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- IMAGE POPUP -->
-  <div id="imagePopup" class="imagePopup">
-      <span id="imagePopupClose" class="imagePopup-close">&times;</span>
-
-      <img id="imagePopupImg" class="imagePopup-img" src="">
-
-      <button id="imagePopupPrev" class="imagePopup-prev">&#10094;</button>
-      <button id="imagePopupNext" class="imagePopup-next">&#10095;</button>
-  </div>
-
-
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="social-icons">
-            <a href="#" target="_blank" aria-label="Email">
-                <i class="fa-regular fa-envelope"></i>
-            </a>
-            <a href="#" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            </div>
-            <p>Let us work together</p>
-        </div>
     </footer>
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script> 
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>

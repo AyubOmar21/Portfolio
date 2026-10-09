@@ -1,145 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects | Ayub Omar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&family=JetBrains+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="cursor"></div>
-    <!---
-    <div id="loader">
-        <div id="progress-text">0%</div>
-        <div class="progress-container">
-            <div class="progress-bar" id="progress-bar"></div>
+    <nav>
+    <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Ayub Omar">
+        <div class="logo"><div class="grp"><span class="lw">A</span><span class="lw" id="ly">Y</span><span class="lp">U</span><span class="lw" id="lb">B</span></div><span class="lp lx" id="lx">X</span><span class="lp ld" id="ld">DESIGN</span></div>
+        <div class="sub">UX Researcher &amp; Designer</div>
+        </a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+        <div class="links" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html" aria-current="page">Projects</a>
+        <a href="about.html">About</a>
         </div>
     </div>
--->
-    <div id="load">
-        <div class="main-content">
-            <header class="navbar">
-                <div class="nav-inner">
-                    <span class="logo" id="logo">Ayub Omar</span>
-                    <nav class="nav-links">
-                        <a href="index.html">Home</a>
-                        <a href="project.html" class="active">Projects</a>
-                        <a href="about.html" >About</a>
-                    </nav>
-                    <div class="nav-controls">
-                        <div id="theme-toggle" class="theme-toggle">
-                            <div class="toggle-circle"></div>
-                        </div>                       
-                        <button class="hamburger">&#9776;</button>
-                    </div>
-                </div>
-                <div class="overlay-nav">
-                    <span class="overlay-logo" id="logo">Ayub Omar</span>
-
-                    <div class="overlay-content">
-                        <a href="index.html">Home</a>
-                        <a href="project.html" class="active">Projects</a>
-                        <a href="about.html" >About</a>
-                    </div>
-
-                    <!-- 👇 overlay toggle: no id, extra class -->
-                    <div class="theme-toggle overlay-toggle">
-                        <div class="toggle-circle"></div>
-                    </div>
-
-                    <button class="close-btn">&times;</button>
-                </div>
-            </header>
-            <br>
-            <br>
-            <br>
-            <div class="gallery-container">
-            <!-- Top row: 2 portraits -->
-                <div class="gallery-row">
-                    <section class="gallery portrait">
-                    <div class="gallery-image">
-                        <img src="images/africa.png" alt="Project 1">
-                        <div class="gallery-overlay">
-                        <h2 class="gallery-title">Digital Extractivism</h2>
-                        <a href="map.html" class="gallery-btn">View Project</a>
-                        </div>
-                    </div>
-                    </section>
-                    
-                    <section class="gallery portrait">
-                    <div class="gallery-image">
-                        <img src="images/screen 1.png" alt="Project 2">
-                        <div class="gallery-overlay">
-                        <h2 class="gallery-title">Arkli Studios</h2>
-                        <a href="arkli.html" class="gallery-btn">View Project</a>
-                        </div>
-                    </div>
-                    </section>
-                    <section class="gallery portrait">
-                    <div class="gallery-image">
-                        <img src="images/piece 1.png" alt="Project 2">
-                        <div class="gallery-overlay">
-                        <h2 class="gallery-title">One Piece</h2>
-                        <a href="piece.html" class="gallery-btn">View Project</a>
-                        </div>
-                    </div>
-                    </section>
-                    <section class="gallery portrait">
-                    <div class="gallery-image">
-                        <img src="images/arkli 1.png" alt="Project 2">
-                        <div class="gallery-overlay">
-                        <h2 class="gallery-title">My Portfolio</h2>
-                        <a href="portfolio.html" class="gallery-btn">View Project</a>
-                        </div>
-                    </div>
-                    </section>
-                </div>
-
-                <!-- Second row: 1 landscape -->
-                <div class="gallery-row">
-                    <section class="gallery landscape">
-                        <style>
-                                .gallery.portrait {
-                                    margin-top: 50px;
-                                }
-                                .gallery.landscape {
-                                    opacity: 0;
-                                    height: 100px;
-                                }
-
-                               </style>
-                        <div class="gallery-image">
-                            <img src="images/Clive Chiristian Ali.jpg Land copy.jpg" alt="Project 3">
-                            <div class="gallery-overlay">
-                            <h2 class="gallery-title">My Portfolio</h2>
-                            <a href="portfolio.html" class="gallery-btn">View Project</a>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
+    <div class="scrim" id="scrim"></div>
+    </nav>
+    
+    <main>
+    <section id="projects" data-reveal data-step=".3" style="padding-top:64px">
+    <div class="wrap"><h2 class="sec-title" data-a="fade" data-o="0">Projects</h2><div class="grid2 gp">
+        <article class="win" data-a="left" data-o="1">
+            <div class="bar"><b></b><b></b><b></b><span>GOV.uk</span></div>
+            <img src="images/gov.png" alt="Arkli Studios" loading="lazy">
+            <div class="meta"><h3>Product Notification</h3><a class="tlink" href="product-notification.html">View Project <span>&rsaquo;</span></a></div>
+            </article>
+            <article class="win" data-a="up" data-o="2">
+            <div class="bar"><b></b><b></b><b></b><span>arklistudios.com</span></div>
+            <img src="images/gusi finale final finale.jpg" alt="Arkli Studios" loading="lazy">
+            <div class="meta"><h3>Arkli Studios</h3><a class="tlink" href="arkli.html">View Project <span>&rsaquo;</span></a></div>
+            </article>
+            <article class="win" data-a="right" data-o="3">
+            <div class="bar"><b></b><b></b><b></b><span>DigitalExtractivism.com</span></div>
+            <img src="images/africa.png" alt="Digital Extractivism" loading="lazy">
+            <div class="meta"><h3>Digital Extractivism</h3><a class="tlink" href="map.html">View Project <span>&rsaquo;</span></a></div>
+            </article>
+            <article class="win" data-a="left" data-o="4">
+            <div class="bar"><b></b><b></b><b></b><span>one-piece-blog.com</span></div>
+            <img src="images/piece 1.png" alt="Digital Extractivism" loading="lazy">
+            <div class="meta"><h3>One Piece Blog</h3><a class="tlink" href="piece.html">View Project <span>&rsaquo;</span></a></div>
+        </article>
     </div>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="social-icons">
-            <a href="https://www.pinterest.co.uk/aliasadomar/" target="_blank" aria-label="Pinterest">
-                <i class="fa-regular fa-envelope"></i>
-            </a>
-            <a href="https://www.instagram.com/aliasad_20/" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=61561177798260" target="_blank" aria-label="Facebook">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            </div>
-            <p>Let us work together</p>
-        </div>
+    </section>
+    </main>
+ 
+    <footer>
+    <div class="wrap">
+        <span>Ayub Omar</span>
+        <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" rel="noopener" >LinkedIn</a>
+    </div>
     </footer>
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>

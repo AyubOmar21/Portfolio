@@ -1,243 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" href="images/logo.png" type="images/logo/png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayub Omar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&family=JetBrains+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="cursor"></div>
-
-
-    <div id="load">
-        <div class="main-content">
-            <header class="navbar">
-                <div class="nav-inner">
-                    <span class="logo" id="logo">Ayub Omar</span>
-                    <nav class="nav-links">
-                        <a href="index.html" class="active">Home</a>
-                        <a href="project.html">Projects</a>
-                        <a href="about.html" >About</a>
-                    </nav>
-                    <div class="nav-controls">
-                        <div id="theme-toggle" class="theme-toggle">
-                            <div class="toggle-circle"></div>
-                        </div>                       
-                        <button class="hamburger">&#9776;</button>
-                    </div>
-                </div>
-                <div class="overlay-nav">
-                    <span class="overlay-logo" id="logo">Ayub Omar</span>
-
-                    <div class="overlay-content">
-                        <a href="index.html" class="active">Home</a>
-                        <a href="project.html">Projects</a>
-                        <a href="about.html" >About</a>
-                    </div>
-
-                    <!-- 👇 overlay toggle: no id, extra class -->
-                    <div class="theme-toggle overlay-toggle">
-                        <div class="toggle-circle"></div>
-                    </div>
-
-                    <button class="close-btn">&times;</button>
-                </div>
-                <style>
-                    .nav-links a {
-                        color: #ffffff;
-                    }
-                    .logo {
-                        color: #ffffff;
-                    }
-                </style>
-            </header>
-            <section class="masthead">        
-                <div class="masthead-bottom-text">
-                    Breathing life into every design.
-                </div>                
-            </section>
-            <section class="project" id="smooth-wrapper">
-                <div class="project-image" id="smooth-content">
-                    <img src="images/gusi finale final finale.jpg" alt="Project 1">
-                    <div class="project-overlay">
-                    <h2 class="project-title">Arkli Studios</h2>
-                    <a href="arkli.html" class="project-btn">View Project</a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="project" id="smooth-wrapper">
-                <div class="project-image" id="smooth-content">
-                    <img src="images/africa.png" alt="Project 1">
-                    <div class="project-overlay">
-                    <h2 class="project-title">Digital Extractivism</h2>
-                    <a href="map.html" class="project-btn">View Project</a>
-                    </div>
-                </div>
-            </section>
-           
-
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <section class="aboutMe">
-                <div class="separator-container">
-                    <div class="separator-line"></div>
-                </div>
-                <div class="about-left">
-                    <div class="aboutTitle">
-                        <h2>THE NAME’S<br><span class="highlight">AYUB</span></h2>
-                    </div>
-                    <div class="aboutImage">
-                        <img src="images/me.jpg" alt="Ayub">
-                    </div>
-                </div>
-                <div class="about-right">
-                    <div class="aboutStory">
-                        <p>
-                            My design journey started with a passion in creating narratives and storylines within experiences, driven by the idea that every experience should tell a story worth remembering.  My aim is to give digital experience life, empathy and meaning.
-                        </p>
-                    </div>
-
-                    <div class="about-lower">
-                        <div class="aboutSkills">
-                            <p>
-                                My design philosophy focuses on creating seamless user experiences that feels natural, intuitive and alive. By attaching narratives and storylines to experiences, it breathes life into it which transforms routine interactions into memorable journeys, making users feel connected, understood and engaged at every stage.
-                                I value empathy, integrity, transparency and a devotion to refined craftmanship that resonates long after.
-                            </p>
-                        </div>
-                        <div class="aboutMeText">
-                            <p>
-                                I'm always seeking new experiences, both in the digital world and the real one. Whether it's exploring unfamiliar ideas or spending time outdoors on a hike, these moments help me better understand people and emotions.
-                                I'm committed to continually growing; not just my skills, but the empathy behind them, so i can create experiences that feel intentional and meaningful.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="services-alt" aria-labelledby="services-title">
-                <hr class="sepLine"/>
-
-
-                <div class="services-inner">
-
-                    <!-- LEFT: Heading + intro + CTA -->
-                    <div class="services-panel services-panel--intro">
-                    <h2 id="services-title" class="svc-title animate-fadeDown">What I can <span class="highlight">bring</span></h2>
-                    <p class="svc-lead animate-fadeLeft">
-                        I craft brand stories, design thoughtful UX/UI and build web & app experiences that connect with people - not just screens.
-                    </p>
-
-                    <ul class="svc-bullets animate-fadeLeft" aria-hidden="true">
-                        <li>Brand identity & storytelling</li>
-                        <li>UX research & interaction design</li>
-                        <li>Responsive web & app design</li>
-                    </ul>
-
-                    <div class="svc-cta-row animate-fadeUp">
-                        <a class="btn-primary" href="about.html">Let's collaborate</a>
-                        <a class="btn-ghost" href="project.html">See projects</a>
-                    </div>
-                    </div>
-
-                    <!-- RIGHT: Service cards -->
-                    <div class="services-panel services-panel--cards" role="list">
-                    <article class="svc-card" role="listitem" tabindex="0">
-                        <div class="svc-card__media" aria-hidden="true">🧭</div>
-                        <div class="svc-card__body">
-                        <h3>Brand Identity & Storytelling</h3>
-                        <p>Shape the voice, values and story behind a brand, that goes beyond logos, so every touchpoint feels intentional.</p>
-                        </div>
-                    </article>
-
-                    <article class="svc-card" role="listitem" tabindex="0">
-                        <div class="svc-card__media" aria-hidden="true">🎛️</div>
-                        <div class="svc-card__body">
-                        <h3>UX & UI Design</h3>
-                        <p>Human-centred interfaces grounded in research and iterative testing to make products simple and delightful.</p>
-                        </div>
-                    </article>
-
-                    <article class="svc-card" role="listitem" tabindex="0">
-                        <div class="svc-card__media" aria-hidden="true">💻</div>
-                        <div class="svc-card__body">
-                        <h3>Web & App Design</h3>
-                        <p>Responsive, performance-minded designs that translate a brand’s story into usable digital experiences.</p>
-                        </div>
-                    </article>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-<!---
-            <section class="services">
-                <div class="sepLine"></div>           
-                <div class="services-container">
-                    <div class="aboutTitle">
-                        <h2>What I can <span class="highlight"><br>bring</span></h2>
-                    </div>
-                    <div class="aboutImage">
-                        <img src="images/bob finale copy.jpg" alt="Ayub">
-                    </div>
-
-                    <div class="services-list">
-
-                    <div class="service-item">
-                        <h3>Brand Identity & Storytelling</h3>
-                        <p>Crafting meaningful narratives and emotional foundations that give brands depth, clarity, and a sense of purpose beyond visuals.</p>
-                    </div>
-
-                    <div class="service-item">
-                        <h3>UX & UI Design</h3>
-                        <p>Designing intuitive, human-centred interfaces rooted in empathy, clarity, and smooth narrative flow across every interaction.</p>
-                    </div>
-
-                    <div class="service-item">
-                        <h3>Web & App Design</h3>
-                        <p>Translating story-driven concepts into digital experiences that feel alive, intentional, and visually cohesive across platforms.</p>
-                    </div>
-
-                    </div>
-
-                </div>
-            </section>
-        -->
+    <nav>
+    <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Ayub Omar">
+        <div class="logo"><div class="grp"><span class="lw">A</span><span class="lw" id="ly">Y</span><span class="lp">U</span><span class="lw" id="lb">B</span></div><span class="lp lx" id="lx">X</span><span class="lp ld" id="ld">DESIGN</span></div>
+        <div class="sub">UX Researcher &amp; Designer</div>
+        </a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+        <div class="links" id="menu">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="about.html">About</a>
         </div>
     </div>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="social-icons">
-            <a href="#" target="_blank" aria-label="Email">
-                <i class="fa-regular fa-envelope"></i>
-            </a>
-            <a href="#" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            </div>
-            <p>Let us work together</p>
+    <div class="scrim" id="scrim"></div>
+    </nav>
+    
+    <main>
+    <section class="hero">
+    <div class="wrap">
+        <div>
+        <h1>Breathing life into every design.</h1>
+        <p class="mono muted" style="font-size:14px;margin-top:32px"> I inspire ideas through research and storytelling, translate them into thoughtful design, and build experiences that feel intentional. <span class="violet">Research informs design, design guides development, story connects them all.</span></p>
         </div>
+        <div class="stage" aria-hidden="true"><div class="spin"><div class="book"><div class="leaf l0"><div class="pf cover"><span class="mark"><span class="m1"><b class="lw">A</b><b class="lw my">Y</b><b class="lp">U</b><b class="lw mb">B</b><b class="lp mx">X</b></span><span class="m2 lp">DESIGN</span></span></div><div class="pb pg"></div></div><div class="leaf l1"><div class="pf pg"></div><div class="pb pg"></div></div><div class="leaf l2"><div class="pf pg"></div><div class="pb pg"></div></div><div class="leaf l3"><div class="pf pg"></div><div class="pb pg"></div></div><div class="leaf l4"><div class="pf pg"></div><div class="pb pg"></div></div><div class="leaf l5"><div class="pf pg"></div><div class="pb pg"></div></div><div class="leaf l6"><div class="pf pg"></div><div class="pb pg"></div></div><div class="leaf l7"><div class="pf pg"></div><div class="pb cover"></div></div></div></div></div>
+    </div>
+    </section>
+    <br>
+    <br>
+    <Br>
+    <br>
+    <section id="projects" style="padding-top:32px" data-reveal data-step=".35">
+    <div class="wrap"><h2 class="sec-title" data-a="fade" data-o="0">Featured Projects</h2><div class="grid2">
+        <article class="win" data-a="left" data-o="1">
+        <div class="bar"><b></b><b></b><b></b><span>GOV.uk</span></div>
+        <img src="images/gov.png" alt="Arkli Studios" loading="lazy">
+        <div class="meta"><h3>Product Notification</h3><a class="tlink" href="product-notification.html">View Project <span>&rsaquo;</span></a></div>
+        </article>
+        <article class="win" data-a="right" data-o="2">
+        <div class="bar"><b></b><b></b><b></b><span>Digital Extractivism.com</span></div>
+        <img src="images/africa.png" alt="Digital Extractivism" loading="lazy">
+        <div class="meta"><h3>Digital Extractivism</h3><a class="tlink" href="map.html">View Project <span>&rsaquo;</span></a></div>
+        </article>
+    </div></div>
+    </section>
+    
+    <section id="about" data-reveal data-step=".25">
+    <div class="wrap about">
+        <div>
+        <h2 data-a="left" data-o="1">My Design Story</h2>
+        <p data-a="up" data-o="2">My design journey started with a passion in creating narratives and storylines within experiences, driven by the idea that every experience should tell a story worth remembering. My aim is to give digital experience life, empathy and meaning.</p>
+        <p data-a="up" data-o="3">My design philosophy focuses on creating seamless user experiences that feels natural, intuitive and alive. By attaching narratives and storylines to experiences, it breathes life into it which transforms routine interactions into memorable journeys, making users feel connected, understood and engaged at every stage. I value empathy, integrity, transparency and a devotion to refined craftmanship that resonates long after.</p>
+        <p data-a="up" data-o="4">I&rsquo;m always seeking new experiences, both in the digital world and the real one. Whether it&rsquo;s exploring unfamiliar ideas or spending time outdoors on a hike, these moments help me better understand people and emotions. I&rsquo;m committed to continually growing; not just my skills, but the empathy behind them, so i can create experiences that feel intentional and meaningful.</p>
+        </div>
+        <div>
+        <h2 data-a="right" data-o="6">Skills &amp; Expertise</h2>
+        <div class="skills">
+            <div class="card skill" data-a="down" data-o="7"><h3>Design</h3><ul><li>UX Research</li><li>Interaction Design</li><li>Prototyping</li><li>Wireframing</li></ul></div>
+            <div class="card skill" data-a="down" data-o="8"><h3>Development</h3><ul><li>HTML / CSS</li><li>JavaScript</li><li>Responsive UI</li><li>GitHub</li></ul></div>
+            <div class="card skill" data-a="up" data-o="9"><h3>Tools</h3><ul><li>Figma</li><li>VS Code</li><li>Adobe Suite</li></ul></div>
+            <div class="card skill" data-a="up" data-o="10"><h3>Soft skills</h3><ul><li>Storytelling</li><li>User Empathy</li><li>Collaboration</li><li>Problem Solving</li></ul></div>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+    <section id="bring" data-reveal data-step=".22">
+    <div class="wrap">
+        <div class="bring">
+        <div>
+            <h2 data-a="left" data-o="0">What I can bring</h2>
+            <p data-a="up" data-o="1">I craft brand stories, design thoughtful UX/UI and build web &amp; app experiences that connect with people - not just screens.</p>
+        </div>
+        <div>
+            <ul class="list">
+            <li data-a="left" data-o="2">Brand identity &amp; storytelling</li>
+            <li data-a="left" data-o="3">UX research &amp; interaction design</li>
+            <li data-a="left" data-o="4">Responsive web &amp; app design</li>
+            </ul>
+            <div class="cta">
+            <a class="btn" href="project.html" data-a="up" data-o="5">See projects</a>
+            </div>
+        </div>
+        </div>
+        <div class="grid3">
+        <div class="card" data-a="left" data-o="6">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></div>
+            <h3>Brand Identity &amp; Storytelling</h3>
+            <p>Shape the voice, values and story behind a brand, that goes beyond logos, so every touchpoint feels intentional.</p>
+        </div>
+        <div class="card" data-a="down" data-o="8">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></div>
+            <h3>UX &amp; UI Design</h3>
+            <p>Human-centred interfaces grounded in research and iterative testing to make products simple and delightful.</p>
+        </div>
+        <div class="card" data-a="right" data-o="7">
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
+            <h3>Web &amp; App Design</h3>
+            <p>Responsive, performance-minded designs that translate a brand&rsquo;s story into usable digital experiences.</p>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+    <section class="final" data-reveal>
+    <div class="wrap">
+        <h2 data-type>Let us work together</h2>
+        <a class="btn" href="about.html" data-a="up" data-o="0">Let&rsquo;s collaborate <span>&rsaquo;</span></a>
+    </div>
+    </section>
+    </main>
+ 
+    <footer>
+    <div class="wrap">
+        <span>Ayub Omar</span>
+        <a href="https://www.linkedin.com/in/ayub-omarux/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
     </footer>
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
